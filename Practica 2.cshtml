@@ -1,0 +1,49 @@
+﻿/*
+ * Created by SharpDevelop.
+ * User: Cesar AG
+ * Date: 28/02/2014
+ * Time: 12:19
+ * 
+ * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ */
+using System;
+
+namespace Practica2._
+{
+	class Program
+	{
+		double a,b,c;
+		public static void Main(string[] args)
+		{
+			double R;
+			Console.WriteLine("Ingresa valor de a");
+		double a=double.Parse(Console.ReadLine());
+		a =(a * .16) + a;
+		
+		Console.WriteLine("Ingresa valor de b");
+		double b=double.Parse(Console.ReadLine());
+		b =(b * .16) + b  ;
+		
+		Console.WriteLine("Ingresa valor de c");
+		double c=double.Parse(Console.ReadLine());
+		c =(c * .16) + c;
+		
+		
+		Console.WriteLine("El valor  de a es:"+ a);
+		Console.WriteLine("El valor de b es: "+ b);
+		Console.WriteLine("El valor  de c es:"+ c);
+		
+		
+		R= a + b +c ;
+		
+		Console.WriteLine("Total:" + R );
+	
+		
+			
+			// TODO: Implement Functionality Here
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
